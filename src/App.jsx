@@ -1,108 +1,13 @@
 import React from "react";
 import Navbar from "./components/Navbar.jsx"
+import Home from "./components/Home.jsx"
 import './App.css'
 
 export default function App() {
   return (
     <div>
       <Navbar />
-      <ul>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-        <li>ahhhhhhhhhhh</li>
-      </ul>
-      <h1 id="scroll">test</h1>
+      <Home />
     </div>
   )
 }

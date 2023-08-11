@@ -8,13 +8,13 @@ export default function navbar() {
         <nav className="navbar">
             <img className="logo" src={Logo}/>
             <ul className="nav--buttons">
-                <li><a href="#"><button className="nav--button">Home</button></a></li>
+                <li><a href="#Home"><button className="nav--button">Home</button></a></li>
                 <li><a href="#"><button className="nav--button">Cross Country</button></a></li>
                 <li><a href="#"><button className="nav--button">Track & Field</button></a></li>
                 <li><a href="#"><button className="nav--button">Contact</button></a></li>
             </ul>
             <a href="https://www.instagram.com/nhswildcatsxc/" target="_blank"><button className="nav--button"><img className="socialLogo" src={instagram}/></button></a>
-            <a href="https://www.instagram.com/nhswildcatsxc/" target="_blank"><button className="nav--button"><img className="socialLogo" src={xLogo}/></button></a>
+            <a href="https://twitter.com/NHSWildcatsXC" target="_blank"><button className="nav--button"><img className="socialLogo" src={xLogo}/></button></a>
         </nav>
     )
 }
