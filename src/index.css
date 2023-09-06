@@ -1,5 +1,6 @@
 body, html{
   margin: 0;
   scroll-behavior: smooth;
-  background-color: rgb(23, 23, 23);
+  background-color: rgb(242, 242, 242);
+  font-family: "Quicksand", sans-serif;
 }
