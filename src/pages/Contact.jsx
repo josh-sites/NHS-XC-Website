@@ -53,14 +53,14 @@ const Contact = () => {
   };
 
   return (
-    <div className='ContactForm'>
+    <div className='contact'>
       <div className='container'>
         <div className='row'>
           <div className='col-12 text-center'>
             <div className='contactForm'>
               <form id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
                 {/* Row 1 of form */}
-                <div className='row formRow'>
+                <div className='row-formRow'>
                   <div className='col-6'>
                     <input
                       type='text'
@@ -72,7 +72,7 @@ const Contact = () => {
                           message: 'Please use 30 characters or less'
                         }
                       })}
-                      className='form-control formInput'
+                      className='form-control-formInput'
                       placeholder='Name'
                     ></input>
                     {errors.name && <span className='errorMessage'>{errors.name.message}</span>}
@@ -85,7 +85,7 @@ const Contact = () => {
                         required: true,
                         pattern: /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
                       })}
-                      className='form-control formInput'
+                      className='form-control-formInput'
                       placeholder='Email address'
                     ></input>
                     {errors.email && (
@@ -94,7 +94,7 @@ const Contact = () => {
                   </div>
                 </div>
                 {/* Row 2 of form */}
-                <div className='row formRow'>
+                <div className='row-formRow'>
                   <div className='col'>
                     <input
                       type='text'
@@ -106,7 +106,7 @@ const Contact = () => {
                           message: 'Subject cannot exceed 75 characters'
                         }
                       })}
-                      className='form-control formInput'
+                      className='form-control-formInput'
                       placeholder='Subject'
                     ></input>
                     {errors.subject && (
@@ -115,7 +115,7 @@ const Contact = () => {
                   </div>
                 </div>
                 {/* Row 3 of form */}
-                <div className='row formRow'>
+                <div className='row-formRow'>
                   <div className='col'>
                     <textarea
                       rows={3}
@@ -123,7 +123,7 @@ const Contact = () => {
                       {...register('message', {
                         required: true
                       })}
-                      className='form-control formInput'
+                      className='form-control-message'
                       placeholder='Message'
                     ></textarea>
                     {errors.message && <span className='errorMessage'>Please enter a message</span>}

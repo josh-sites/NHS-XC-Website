@@ -10,20 +10,20 @@ function Home() {
             <img className='team--image' src={placeholder} />
         </div>
         <div className='left--buttons'>
-            <a href="https://stackoverflow.com/questions/28634584/how-to-disable-underline-in-a-button" target='_blank'>
-                <button className="home--buttons">Mens XC Top 10</button>
+            <a className="home--buttons" href="https://stackoverflow.com/questions/28634584/how-to-disable-underline-in-a-button" target='_blank'>
+                Mens XC Top 10
             </a>
-            <a href="" target='_blank'>
-                <button className="home--buttons">Mens Track & Field Records</button>
+            <a className="home--buttons" href="https://stackoverflow.com/questions/28634584/how-to-disable-underline-in-a-button" target='_blank'>
+                Mens Track & Field Records
             </a>
         </div>
         <img className="center--logo" src={logo}/>
         <div className='right--buttons'>
-            <a href="" target='_blank'>
-                <button className="home--buttons">Womens XC Top 10</button>
+            <a className="home--buttons" href="https://stackoverflow.com/questions/28634584/how-to-disable-underline-in-a-button" target='_blank'>
+                Womens XC Top 10
             </a>
-            <a href="" target='_blank'>
-                <button className="home--buttons">Womens Track & Field Records</button>
+            <a className="home--buttons" href="https://stackoverflow.com/questions/28634584/how-to-disable-underline-in-a-button" target='_blank'>
+                Womens Track & Field Records
             </a>
         </div>
     </div>

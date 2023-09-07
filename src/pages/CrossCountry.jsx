@@ -16,7 +16,7 @@ function CrossCountry() {
       </div>
       <div class='button-wrapper'>
         <div className='right-column'>
-          <a class='xc-buttons'>button</a>
+          <a class='xc-buttons' href='https://instagram.com/nhswildcatsxc/'>button</a>
           <a class='xc-buttons'>button</a>
           <a class='xc-buttons'>button</a>
         </div>
